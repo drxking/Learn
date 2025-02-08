@@ -33,7 +33,7 @@ b = 16
             let bb = true
         // 5. Null
             let nnn = null
-// 1. Non-primitive Data Type
+// 2. Non-primitive Data Type
         // 1. Array
             let arr = [
                 "English",
