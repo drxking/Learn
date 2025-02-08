@@ -11,9 +11,8 @@ a = 12;
 let b = 13;
 const c = 17; 
 
-let d = b
-d = 12
-
+b = 16
+// c = 24  ---- NOT ALLOWED ----
 
 // Variable declared by let can be updated but Variable declared by Const remain same in entire program
 
