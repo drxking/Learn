@@ -4,7 +4,7 @@
 let a
 
 // Varibale Assignment
-a = 12;
+a = 0;
 
 // Variable can be declared using let and const
 
@@ -54,4 +54,43 @@ b = 16
             let obj2 = obj
             obj2.age = 24
 
-            console.log(obj2,obj)
+
+
+// Loop 
+// Execution of block of code in repetative manner is called loop.
+
+// while
+while(a<10){
+    console.log(a)
+    a++
+}
+
+
+for(let i = 1; i<=100;i++){
+    console.log(i)
+}
+
+
+let arr3 = [
+    11,12,13,14
+] // Collection of data is called array
+
+
+// For-IN loop
+for(i in obj){
+    console.log(obj[i]) // Gets arrays index in every iteration
+}
+
+// For-Of loop
+for(i of arr3){
+    console.log(i) //Gets arrays value in every iteration
+}
+
+do{
+    console.log(a)
+    a++
+}while(a<10)
+
+
+
+
