@@ -36,17 +36,13 @@ b = 16
 // 2. Non-primitive Data Type
         // 1. Array
             let arr = [
-                "English",
-                "PLT",
-                "CFA",
-                "Maths",
-                "DL"
+                11,12,13,14
             ] // Collection of data is called array
 
             let arr2 = arr
 
             arr2[1] = 2
-            console.log(arr2,arr)
+            // Changes both array becuase of non-primtive properties
         
         // 2. Object
             let obj = {
@@ -55,3 +51,7 @@ b = 16
                 gender :"Language"
             } // Collection of data in key value pair is object
 
+            let obj2 = obj
+            obj2.age = 24
+
+            console.log(obj2,obj)
