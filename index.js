@@ -78,12 +78,12 @@ let arr3 = [
 
 // For-IN loop
 for(i in obj){
-    //console.log(obj[i]) // Gets arrays index in every iteration
+    // console.log(obj[i]) // Gets arrays index in every iteration
 }
 
 // For-Of loop
 for(i of arr3){
-    //console.log(i) //Gets arrays value in every iteration
+    // console.log(i) //Gets arrays value in every iteration
 }
 
 // DO while loop
@@ -108,5 +108,5 @@ function add(a,b){
 }
 
 
-add()
+add(4,5)
 
