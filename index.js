@@ -61,13 +61,13 @@ b = 16
 
 // while
 while(a<10){
-    console.log(a)
+    //console.log(a)
     a++
 }
 
 
 for(let i = 1; i<=100;i++){
-    console.log(i)
+    //console.log(i)
 }
 
 
@@ -78,19 +78,35 @@ let arr3 = [
 
 // For-IN loop
 for(i in obj){
-    console.log(obj[i]) // Gets arrays index in every iteration
+    //console.log(obj[i]) // Gets arrays index in every iteration
 }
 
 // For-Of loop
 for(i of arr3){
-    console.log(i) //Gets arrays value in every iteration
+    //console.log(i) //Gets arrays value in every iteration
 }
 
+// DO while loop
 do{
-    console.log(a)
+    //console.log(a)
     a++
 }while(a<10)
 
 
 
+function greet(name="Default"){
+    console.log(`Hello My name is ${name}.`)
+}
+
+
+
+greet("Sudip") 
+
+
+function add(a,b){
+    console.log(a+b)
+}
+
+
+add()
 
